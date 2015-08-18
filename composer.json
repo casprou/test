@@ -1,0 +1,20 @@
+{
+    "name": "mika/whatever-package",
+    "homepage": "http://www.google.com/",
+    "description": "Test",
+    "require": {
+        "php" : ">=5.3.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": "1.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Mika\\Wtv\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
+
